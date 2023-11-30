@@ -1,0 +1,26 @@
+﻿Document,Data Term,Meaning
+Final Project.ipynb,Schedule,A list of all the games played in a week; There are 18 weeks in an NFL season
+Final Project.ipynb,Play-by-Play,Football is played one play at a time; play-by-play data has records of every play
+Final Project.ipynb,Passer,The player who throws a pass; only applicable on pass plays
+Final Project.ipynb,Receiver,The player who catches a pass; only applicable on pass plays
+Final Project.ipynb,Rusher,The player who runs the ball; only applicable on rush plays
+Final Project.ipynb,ESPN Game API,Available at: https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events
+Final Project.ipynb,ESPN Player API,Available at: http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/athletes
+Final Project.ipynb,ESPN Team API,Available at: https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/teams
+Final Project.ipynb,Down,"Every play has a down, and the offense has four downs to travel 10 yards"
+Final Project.ipynb,Successful Play,"When the offense gains a valuable amount of yards for their down situation.
+- If first down: Need to gain half the needed yardage
+- If second down: Need to gain 70% of the needed yardage
+- If third or fourth down: Need to gain all the needed yardage"
+Final Project.ipynb,"--""Passing Play""",The rate of being successful on all passing plays
+Final Project.ipynb,"--""Rushing Play""",The rate of being successful on all rushing plays
+successful_play_id.csv,Team ID,The ID given by ESPN to identify the team
+successful_play_id.csv,"--""Passing Play""",The rate of being successful on all passing plays
+successful_play_id.csv,"--""Rushing Play""",The rate of being successful on all rushing plays
+successful_play_id.csv,Week,The Week of the 2022 Season; 18 weeks in an NFL Season
+successful_play_id.csv,Team Name,The team that was on offense during the play
+Week 10.json,Player Name,"The name of the player, taken from the Week 10.json file in the Receiving directory"
+Week 10.json,Rank,Where that player's number of plays ranks within all players in the given category in Week 10
+Week 10.json,Plays,The number of plays the players was involved in during Week 10
+Week 10.json,Player Bio,The website on ESPN.com that contains all player information
+Week 10.json,Headshot Link,The website on ESPN.com that contains the player photograph
